@@ -303,6 +303,9 @@ fabric.properties
 !.yarn/sdks
 !.yarn/versions
 
+package-lock.json
+yarn.lock
+
 # if you are NOT using Zero-installs, then:
 # comment the following lines
 !.yarn/cache
