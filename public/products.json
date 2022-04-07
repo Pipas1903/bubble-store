@@ -1,0 +1,77 @@
+{
+  "001": {
+    "name": "eclairs",
+    "price": 0.99,
+    "description": "A delicious eclair with a hint of chocolate and a touch of cream.",
+    "weight": 0.5,
+    "img": [
+      "http://www.seriouseats.com/images/2015/03/20150323-cocktails-vicky-wasik-eclairs.jpg",
+      "http://assets.epicurious.com/photos/57d1f9f9e4b0c0e8d8b7a9f9/master/pass/161217-cocktails-vicky-wasik-eclairs.jpg"
+    ],
+    "category": {
+      "0": "dessert",
+      "1": "eclair",
+      "2": "chocolate"
+    }
+  },
+  "002": {
+    "name": "chocolate-chip cookies",
+    "price": 0.99,
+    "description": "A delicious chocolate chip cookie.",
+    "weight": 0.5,
+    "img": [
+      "http://www.seriouseats.com/images/2015/03/20150323-cocktails-vicky-wasik-eclairs.jpg",
+      "http://assets.epicurious.com/photos/57d1f9f9e4b0c0e8d8b7a9f9/master/pass/161217-cocktails-vicky-wasik-eclairs.jpg"
+    ],
+    "category": {
+      "0": "dessert",
+      "1": "cookie",
+      "2": "chocolate"
+    }
+  },
+  "003": {
+    "name": "chocolate muffin",
+    "price": 0.99,
+    "description": "A delicious chocolate muffin.",
+    "weight": 0.5,
+    "img": [
+      "http://www.seriouseats.com/images/2015/03/20150323-cocktails-vicky-wasik-eclairs.jpg",
+      "http://assets.epicurious.com/photos/57d1f9f9e4b0c0e8d8b7a9f9/master/pass/161217-cocktails-vicky-wasik-eclairs.jpg"
+    ],
+    "category": {
+      "0": "dessert",
+      "1": "muffin",
+      "2": "chocolate"
+    }
+  },
+  "004": {
+    "name": "chocolate cake",
+    "price": 0.99,
+    "description": "A delicious chocolate cake.",
+    "weight": 0.5,
+    "img": [
+      "http://www.seriouseats.com/images/2015/03/20150323-cocktails-vicky-wasik-eclairs.jpg",
+      "http://assets.epicurious.com/photos/57d1f9f9e4b0c0e8d8b7a9f9/master/pass/161217-cocktails-vicky-wasik-eclairs.jpg"
+    ],
+    "category": {
+      "0": "dessert",
+      "1": "cake",
+      "2": "chocolate"
+    }
+  },
+  "005": {
+    "name": "chocolate ice cream",
+    "price": 0.99,
+    "description": "A delicious chocolate ice cream.",
+    "weight": 0.5,
+    "img": [
+      "http://www.seriouseats.com/images/2015/03/20150323-cocktails-vicky-wasik-eclairs.jpg",
+      "http://assets.epicurious.com/photos/57d1f9f9e4b0c0e8d8b7a9f9/master/pass/161217-cocktails-vicky-wasik-eclairs.jpg"
+    ],
+    "category": {
+      "0": "dessert",
+      "1": "ice cream",
+      "2": "chocolate"
+    }
+  }
+}
