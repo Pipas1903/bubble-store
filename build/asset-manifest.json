@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.0892d681.js",
+    "static/media/kylieBaby.mp4": "/static/media/kylieBaby.8ea466ce1ce1fdd00a23.mp4",
+    "static/media/shop-gfd2118690_1920.jpg": "/static/media/shop-gfd2118690_1920.713ca90a0d3012863eea.jpg",
+    "static/media/kindpng_3346896.png": "/static/media/kindpng_3346896.b67fe876eebad720f9d0.png",
+    "static/media/bubbles.png": "/static/media/bubbles.57dd32877e6df836afb2.png",
+    "static/media/carts.png": "/static/media/carts.1b68eb8594def94cbe64.png",
+    "index.html": "/index.html",
+    "main.0892d681.js.map": "/static/js/main.0892d681.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0892d681.js"
+  ]
+}

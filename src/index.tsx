@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import App from "./App";
+import GlobalStyles from "./GlobalStyles";
+import Home from './pages/Home';
+import ProductDescriptionPage from "./pages/ProductDescriptionPage";
+import CategoryProductListPage from "./pages/CategoryProductListPage";
+import CategoryListing from "./components/CategoryListing";
+import FilteredCategories from "./components/FilteredCategories";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <GlobalStyles/>
+
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<App/>}>
+                    <Route index element={<Home/>}/>
+
+                    <Route path="/products" element={<CategoryProductListPage/>}>
+                        <Route index element={<FilteredCategories/>}/>
+                        <Route path=":productId" element={<ProductDescriptionPage/>}/>
+                    </Route>
+
+                    <Route path="/category" element={<CategoryProductListPage/>}>
+                        <Route index element={<CategoryListing/>}/>
+                        <Route path=":name" element={<FilteredCategories/>}/>
+                    </Route>
+
+                </Route>
+                <Route path="*" element={<Navigate to="/"/>}/>
+            </Routes>
+        </BrowserRouter>
+
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
