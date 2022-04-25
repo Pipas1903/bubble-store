@@ -18,12 +18,12 @@ const Back = styled.div`
 `;
 
 interface open {
-    open: boolean
+    open: boolean,
     close: () => void
 }
 
-const BackDrop = (prop: open) => {
-    return <Back className={prop.open ? "open" : ""} onClick={prop.close}>
+const BackDrop = ({open, close}: open) => {
+    return <Back className={open? "open" : ""} onClick={close}>
     </Back>;
 }
 

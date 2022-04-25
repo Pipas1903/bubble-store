@@ -41,18 +41,20 @@ const StyledHeader = styled.div`
 `;
 
 interface get {
-    onClick: () => void
+    burguer: () => void,
+    cart: () => void
+
 }
 
-const Header = (prop: get) => {
+const Header = ({burguer, cart}: get) => {
 
     return (<StyledHeader>
         <div style={{display: "flex"}}>
-            <Burguer onClick={prop.onClick}/>
+            <Burguer onClick={burguer}/>
             <Logo/>
         </div>
         <Title>Bubble Store</Title>
-        <ShoppingCart/>
+        <ShoppingCart onClick={cart}/>
     </StyledHeader>);
 
 }

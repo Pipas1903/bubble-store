@@ -121,9 +121,15 @@ const ProductDescriptionPage = () => {
         price: chosen.price,
         img: chosen.img[0]
     });
-    const addProductsToCart = (product: Product) => setCart((existing: Product[]) => existing.concat([product]))
-    const updateProductInCart = (product: Product) => setCart((existing: Product[]) => existing.find(el => el.name === product.name))
+    const addNewToCart = (product: Product) => setCart((existing: Product[]) => existing.concat([product]))
 
+    function addProductToCart(product: Product) {
+        let temp = cart;
+        if (temp.includes(product)) { // @ts-ignore
+            temp.push(cart.find(el => el.name === name));
+        }
+        setCart(temp);
+    }
 
     return (<Container>
         <ProductCategoriesBar categories={Object.values(chosen.category)}/>
@@ -147,7 +153,7 @@ const ProductDescriptionPage = () => {
                             <Price>{chosen.price}€</Price>
                         </div>
                         <BuyingOptions product={product}
-                                       setCart={addProductsToCart}
+                                       setCart={addNewToCart}
                                        cart={cart}
                         />
                     </div>
