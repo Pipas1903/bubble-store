@@ -6,6 +6,7 @@ import ProductCategoriesBar from "../components/ProductCategoriesBar";
 import BuyingOptions from "../components/BuyingOptions";
 import React, {useContext, useState} from "react";
 import NotFound from "./NotFound";
+import {Context} from "../App";
 
 const Name = styled.h1`
   color: #E1519E;
@@ -39,7 +40,7 @@ const Text = styled.p`
 
   &.ingredients {
     max-width: fit-content;
-    font-size: 10px;
+    font-size: 12px;
     column-width: 150px;
     column-count: 2;
   }
@@ -86,6 +87,13 @@ const Price = styled.p`
   margin-left: 15px;
 `;
 
+export interface Product {
+    name: string,
+    id: string,
+    price: number,
+    img: string
+}
+
 const ProductDescriptionPage = () => {
     const params = useParams();
     const productId = params.productId;
@@ -100,14 +108,21 @@ const ProductDescriptionPage = () => {
             break;
         }
     }
-    // ADD MODAL FOR NOT FOUND WITH ON CLICK THAT REDIRECTS TO HOME OR SOMETHING
 
+    // ADD MODAL FOR NOT FOUND WITH ON CLICK THAT REDIRECTS TO HOME OR SOMETHING
     if (!chosen) {
         return <NotFound/>;
     }
 
-    const [product, setProduct] = useState({name: chosen.name, quantity: 0, id: productId, price: chosen.price});
-    const setProductQuantity = (quantity: number) => setProduct({...product, quantity});
+    const {cart, setCart} = useContext(Context);
+    const [product, setProduct] = useState({
+        name: chosen.name,
+        id: productId as string,
+        price: chosen.price,
+        img: chosen.img[0]
+    });
+    const addProductsToCart = (product: Product) => setCart((existing: Product[]) => existing.concat([product]))
+    const updateProductInCart = (product: Product) => setCart((existing: Product[]) => existing.find(el => el.name === product.name))
 
 
     return (<Container>
@@ -132,7 +147,9 @@ const ProductDescriptionPage = () => {
                             <Price>{chosen.price}€</Price>
                         </div>
                         <BuyingOptions product={product}
-                                       setProductQuantity={setProductQuantity}/>
+                                       setCart={addProductsToCart}
+                                       cart={cart}
+                        />
                     </div>
                 </div>
                 <Text className="titleIngredients">Quantity: </Text>

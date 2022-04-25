@@ -1,8 +1,9 @@
-import React, {ChangeEvent, ReactEventHandler, useState} from "react";
+import React, {ChangeEvent, ReactEventHandler, useEffect, useState} from "react";
 import styled from "styled-components";
 
 interface func {
     fn: (atr: string) => void;
+    atr: string
 }
 
 const Sel = styled.select`
@@ -21,18 +22,21 @@ const Sel = styled.select`
   }
 `;
 
-const Order = (props: func) => {
-    const [value, setValue] = useState("Choose Order");
+const Order = ({fn, atr}: func) => {
+    const [value, setValue] = useState("Choose Batatas");
 
+    useEffect(() => {
+        setValue(atr)
+    }, [atr])
 
     const handle = (e: ChangeEvent<HTMLSelectElement>) => {
-        setValue(e.target.value)
-        props.fn(value);
+        fn(e.target.value);
     }
 
     return <Sel onChange={handle} value={value} placeholder={value}>
-        <option value={"+"} onClick={() => props.fn("+")}>Expensive First</option>
-        <option value={"-"} onClick={() => props.fn("-")}>Cheap First</option>
+        <option value={"default"}>Default</option>
+        <option value={"+"}>Expensive First</option>
+        <option value={"-"}>Cheap First</option>
     </Sel>
 }
 

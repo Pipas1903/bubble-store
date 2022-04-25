@@ -5,7 +5,6 @@ import {Location, useLocation, useParams} from "react-router-dom";
 import styled from "styled-components";
 import Pagination from "../Pagination";
 
-
 const Title = styled.h1`
   margin-top: 20px;
   text-align: center;
@@ -42,13 +41,17 @@ const FilteredCategories = () => {
 
     const path = useLocation();
     const params = useParams();
-    const categoryName = params.name;
+    const {name, subName, thirdName} = params;
+
     const entries = Object.entries(products);
 
     return (<div>
-            <Title>{categoryName ? categoryName : "All Products"}</Title>
+            <Title>{name ? name : "All Products"}</Title>
             <div>
-                <Pagination path={path} categoryName={categoryName as string}/>
+                <Pagination path={path}
+                            categoryName={name as string}
+                            subCategory={subName as string}
+                            thirdCategory={thirdName as string}/>
             </div>
         </div>
     );

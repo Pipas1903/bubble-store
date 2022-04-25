@@ -26,10 +26,10 @@ const PageNumber = styled.input`
   }
 `;
 
-const PageManager = (props: stuff) => {
+const PageManager = ({productsPerPage, totalProducts, paginate}: stuff) => {
     let pageNumbers = [];
 
-    for (let i = 1; i <= Math.ceil(props.totalProducts / props.productsPerPage); i++) {
+    for (let i = 1; i <= Math.ceil(totalProducts / productsPerPage); i++) {
         pageNumbers.push(i);
     }
 
@@ -37,7 +37,7 @@ const PageManager = (props: stuff) => {
         <nav>
             <ul>
                 {pageNumbers.map(number => (
-                    <PageNumber type="button" key={number} value={number} onClick={() => props.paginate(number)}/>
+                   <PageNumber type="button" key={number} value={number} onClick={() => paginate(number)}/>
                 ))}
             </ul>
         </nav>

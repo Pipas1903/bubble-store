@@ -1,67 +1,59 @@
 import React, {useContext, useState} from "react";
 import styled from "styled-components";
 import {Context} from "../../App";
+import {Product} from "../../pages/ProductDescriptionPage";
 
 const QuantityButton = styled.input`
-  color: #E1519E;
-  background-color: white;
+  background-color: rgba(248, 210, 224, 0.18);
   border: 2px solid #E1519E;
-  font-size: 25px;
 
-  border-radius: 50%;
-  width: 45px;
+  color: #E1519E;
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: 20px;
+
+  width: 100px;
   height: 45px;
+  border-radius: 8px;
 
   display: inline;
-  line-height: 0;
   margin: 5px;
-  vertical-align: middle;
-`;
+  cursor: pointer;
 
-const Quantity = styled.p`
-  color: #E1519E;
-  border: 2px solid #E1519E;
-  font-size: 20px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 10px;
-  margin: 5px;
-  width: 20px;
-  text-align: center;
-  font-weight: bold;
+  transition: all linear 300ms;
+
+  &:hover {
+    background-color: rgba(248, 210, 224, 0.82);
+    color: black;
+  }
+
+  &:active {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+  }
 `;
 
 const QuantityManager = styled.div`
   display: flex;
 `;
 
+interface Stuff {
+    product: Product,
+    setCart: (products: Product) => void,
+    cart: Product[]
+}
 
-const BuyingOptions = ({product, setProductQuantity}: any) => {
-    const addProductsToCart = (operation: string) => {
-        if (operation === "+") {
-            setProductQuantity(product.quantity + 1);
-            return;
-        }
-        if (operation === "-") {
-            setProductQuantity(product.quantity - 1);
-            return;
-        }
+const BuyingOptions = ({product, setCart, cart}: Stuff) => {
+
+    const addProductsToCart = () => {
+        setCart(product)
     }
 
     return (<QuantityManager>
         <QuantityButton type="button"
-                        value="+"
-                        disabled={product.quantity >= 5}
-                        onClick={() => {
-                            addProductsToCart("+");
-                        }}/>
-        <Quantity>{product.quantity}</Quantity>
-        <QuantityButton type="button"
-                        value="-"
-                        disabled={product.quantity <= 0}
-                        onClick={() => {
-                            addProductsToCart("-")
-                        }}/>
+                        value="Add to cart"
+                        onClick={addProductsToCart}/>
     </QuantityManager>);
 }
 export default BuyingOptions;

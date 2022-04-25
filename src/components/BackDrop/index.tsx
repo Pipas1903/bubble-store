@@ -24,7 +24,6 @@ interface open {
 
 const BackDrop = (prop: open) => {
     return <Back className={prop.open ? "open" : ""} onClick={prop.close}>
-
     </Back>;
 }
 

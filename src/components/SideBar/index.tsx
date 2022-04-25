@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
+import Dropdown from "../Dropdown";
 
 const Sidebar = styled.div`
   position: absolute;
@@ -9,7 +10,7 @@ const Sidebar = styled.div`
   width: 250px;
   z-index: 1;
 
-  background-color: rgb(38, 61, 98);
+  background-color: #5284cf;
   color: white;
   display: flex;
   flex-direction: column;
@@ -41,22 +42,30 @@ const Category = styled(Link)`
   }
 `;
 
+const DummyDiv = styled.div`
+  height: 100%;
+  width: 100%;
+`;
+
 interface Prop {
     sidebar: boolean
     open: () => void
 }
 
-const SideBar = (prop: Prop) => {
-    return <Sidebar className={prop.sidebar ? "open" : ""} onClick={prop.open}>
-        <Text>All Categories</Text>
-        <Category to={"/category/hair-care"}>Hair Care</Category>
-        <Category to={"/category/shower"}>Shower</Category>
-        <Category to={"/category/solid"}>Solid</Category>
-        <Category to={"/category/liquid"}>Liquid</Category>
-        <Category to={"/category/shampoo"}>Shampoo</Category>
-        <Category to={"/category/conditioner"}>Conditioner</Category>
-        <Category to={"/category/bath-bubble"}>Bath Bubble</Category>
-        <Category to={"/category/body-wash"}>Body Wash</Category>
+const SideBar = ({sidebar, open}: Prop) => {
+    return <Sidebar className={sidebar ? "open" : ""}>
+        <Text>Categories</Text>
+        <Dropdown parentState={sidebar}
+                  setParentState={open}
+                  name={"hair-care"}
+                  level2={["shampoo", "conditioner"]}
+                  level3={["solid", "liquid"]}/>
+        <Dropdown parentState={sidebar}
+                  setParentState={open}
+                  name={"shower"}
+                  level2={["body-wash", "bath-bubble"]}
+                  level3={["solid", "liquid"]}/>
+        <DummyDiv onClick={open}></DummyDiv>
     </Sidebar>
 }
 

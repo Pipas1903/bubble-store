@@ -5,10 +5,18 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 import BackDrop from "./components/BackDrop";
+import {Product} from "../src/pages/ProductDescriptionPage";
 
+const defaultProduct: Product = {
+    name: "",
+    id: "",
+    price: 0,
+    img: ""
+}
 
 export const Context = createContext({cart: [], setCart: ([]: any) => console.warn("no setter")});
 const App = () => {
+
     const [sidebar, setSidebar] = useState(false);
     const toggleSidebar = () => {
         setSidebar((prevState => !prevState))
