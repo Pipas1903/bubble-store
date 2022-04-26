@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
 import Dropdown from "../Dropdown";
+import Search from "../Search";
 
 const Sidebar = styled.div`
   position: absolute;
@@ -10,8 +11,8 @@ const Sidebar = styled.div`
   width: 250px;
   z-index: 1;
 
-  background-color: #5284cf;
-  color: white;
+  background-color: black;
+  color: #5284cf;
   display: flex;
   flex-direction: column;
   transform: translateX(-100%);
@@ -38,7 +39,7 @@ const Category = styled(Link)`
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.83);
-    color: black;
+    color: #5284cf;
   }
 `;
 
@@ -65,6 +66,9 @@ const SideBar = ({sidebar, open}: Prop) => {
                   name={"shower"}
                   level2={["body-wash", "bath-bubble"]}
                   level3={["solid", "liquid"]}/>
+        <Text>Search Products</Text>
+        <Search parentState={sidebar}
+                setParentState={open}/>
         <DummyDiv onClick={open}></DummyDiv>
     </Sidebar>
 }

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState, useLayoutEffect} from 'react';
 import styled from 'styled-components';
-import {Context} from '../../App';
-import {Product} from '../../pages/ProductDescriptionPage';
+import {Context, CartProducts, PriceContext} from '../../App';
+import {ProdJson} from '../Pagination';
 import ProdInCart from '../ProdInCart';
 
 const CartModal = styled.div`
@@ -21,6 +21,10 @@ const CartModal = styled.div`
 
   background-color: rgba(0, 0, 0, 0.88);
   border: 1px solid white;
+  @media (max-width: 768px) {
+    width: 80%;
+    height: 65%;
+  }
 
   &.show {
     left: 50%;
@@ -56,9 +60,16 @@ const H1 = styled.h1`
   background-color: rgb(51, 50, 50);
   padding: 5px;
   margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 const Price = styled.h1`
   padding: 5px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 const Buttons = styled.input`
   font-family: inherit;
@@ -74,75 +85,49 @@ const Buttons = styled.input`
 
 interface props {
     cartModal: boolean,
-    setCartModal: () => void
+    setCartModal: () => void,
 }
 
-const noProduct: Product = {name: "", price: 0, id: "", img: ""}
-
 const Cart = ({cartModal, setCartModal}: props) => {
-    let defaultArray: number[] = [];
     const {cart, setCart} = useContext(Context);
-    const [sortedCart, setSortedCart] = useState(cart.filter((el, index) => cart.indexOf(el) === index));
-    const [quantities, setQuantities] = useState(defaultArray);
-    const [price, setPrice] = useState(0);
+    const {price, calculateTotal} = useContext(PriceContext);
 
-    useLayoutEffect(() => {
-        removeDuplicates();
+    useEffect(() => {
         calculateTotal();
     }, [cart])
 
-    function removeDuplicates() {
-        setSortedCart(cart.filter((item, index) => cart.indexOf(item) === index));
-        setQuantities(checkQuantity());
-    }
-
-    function checkQuantity() {
-        let array: number[] = [];
-        sortedCart.map(el => array.push(countNumberOfTimes(el.name)));
-        return array;
-    }
-
-    function countNumberOfTimes(element: string) {
-        let count: number = 0;
-        cart.forEach(el => el.name === element ? count++ : "");
-        if (count === 0) {
-            removeDuplicates();
-        }
-        return count;
-    }
-
-    function increment(name: string) {
+    function increment(product: ProdJson) {
         let temp = cart;
         // @ts-ignore
-        temp.push(cart.find(el => el.name === name));
+        const quantity = cart[product.name]?.quantity;
+        // @ts-ignore
+        temp[product.name].quantity = quantity + 1;
         setCart(temp);
-        setQuantities(checkQuantity())
         calculateTotal();
     }
 
-    function decrement(name: string) {
+    function decrement(product: ProdJson) {
         let temp = cart;
-        for (let i = 1; i < temp.length; i++) {
-            if (temp[i] === cart.find(el => el.name === name)) {
-                temp.splice(i, 1);
-                setCart(temp);
-                setQuantities(checkQuantity());
-                calculateTotal();
-                break;
-            }
+        // @ts-ignore
+        const quantity = cart[product.name].quantity
+        // @ts-ignore
+        temp[product.name].quantity = quantity - 1;
+        // @ts-ignore
+        if (temp[product.name].quantity === 0) {
+            // @ts-ignore
+            delete temp[product.name];
         }
-    }
 
-    function calculateTotal() {
-        if (cart.length === 0)
-            return;
-        const allPrices = cart.map(el => el.price);
-        setPrice(allPrices.reduce((previousValue, currentValue) => previousValue + currentValue));
+        if (Object.values(temp).length === 0)
+            setCartModal();
+
+        setCart(temp);
+        calculateTotal();
     }
 
     function deleteAll() {
-        setCart([noProduct])
-        setCartModal()
+        setCartModal();
+        setCart({});
     }
 
     return <CartModal className={cartModal ? "show" : "regular"}>
@@ -150,12 +135,12 @@ const Cart = ({cartModal, setCartModal}: props) => {
             <H1>Items on your cart!</H1>
         </Products>
         <Products className="products">
-            {sortedCart.map((el, index) => <ProdInCart key={el.name}
-                                                       name={el.name}
-                                                       increment={increment}
-                                                       decrement={decrement}
-                                                       quantity={countNumberOfTimes(el.name)}/>)
-            }
+            {cart !== {} && Object.values(cart).map((el, index) => <ProdInCart key={el.element.name}
+                                                                               product={el.element}
+                                                                               increment={increment}
+                                                                               decrement={decrement}
+                                                                               quantity={el.quantity}/>)}
+
         </Products>
         <Products className="buttons">
             <Price>Total: {price}€</Price>

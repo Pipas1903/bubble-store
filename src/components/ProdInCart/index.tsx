@@ -1,21 +1,27 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import {Product} from "../../../src/pages/ProductDescriptionPage";
 import AllProducts from "../../products.json";
+import {ProdJson} from '../Pagination';
 
 interface props {
-    name: string,
+    product: ProdJson,
     quantity: number,
-    increment: (name: string) => void,
-    decrement: (name: string) => void
+    increment: (prod: ProdJson) => void,
+    decrement: (prod: ProdJson) => void
 }
 
 const Image = styled.img`
-  width: 15%;
+  width: 16%;
   padding-right: 10px;
+  @media (max-width: 768px) {
+    width: 35%;
+  }
 `;
 const P = styled.p`
   font-size: 20px;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 const Div = styled.div`
   display: flex;
@@ -23,7 +29,7 @@ const Div = styled.div`
 
   &.container {
     flex-direction: row;
-    background-color: rgb(50, 82, 133);
+    background-color: rgb(51, 50, 50);
     padding: 10px;
     margin-bottom: 10px;
     justify-content: space-between;
@@ -52,27 +58,20 @@ const ChangeQuantity = styled.input`
   cursor: pointer;
   transition: all linear 200ms;
 
+  @media (max-width: 768px) {
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+  }
+
   &:hover {
     background-color: #525151;
   }
 `;
 
 
-const ProdInCart = ({name, quantity, increment, decrement}: props) => {
-    const entries = Object.entries(AllProducts);
-    const values = Object.values(AllProducts);
-    const getProductId = (name: string) => {
-        for (let i = 0; i < entries.length; i++) {
-            if (name === entries[i][1].name) {
-                return entries[i][0];
-            }
-        }
-        return "not found";
-    }
-    const [prod, setProd] = useState(values.find(el => el.name === name));
-
-    if (prod === undefined)
-        return <></>
+const ProdInCart = ({product, quantity, increment, decrement}: props) => {
+    const [prod, setProd] = useState(product);
 
     return <Div className="container">
         <Div>
@@ -84,8 +83,8 @@ const ProdInCart = ({name, quantity, increment, decrement}: props) => {
             </Div>
         </Div>
         <Div className="buttons">
-            <ChangeQuantity type="button" value="+" onClick={() => increment(prod.name)}/>
-            <ChangeQuantity type="button" value="-" onClick={() => decrement(prod.name)}/>
+            <ChangeQuantity type="button" value="+" onClick={() => increment(prod)}/>
+            <ChangeQuantity type="button" value="-" onClick={() => decrement(prod)}/>
         </Div>
     </Div>
 }

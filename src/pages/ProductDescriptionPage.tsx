@@ -6,7 +6,8 @@ import ProductCategoriesBar from "../components/ProductCategoriesBar";
 import BuyingOptions from "../components/BuyingOptions";
 import React, {useContext, useState} from "react";
 import NotFound from "./NotFound";
-import {Context} from "../App";
+import {Context, CartProducts, PriceContext} from "../App";
+import {ProdJson} from "../components/Pagination";
 
 const Name = styled.h1`
   color: #E1519E;
@@ -87,49 +88,32 @@ const Price = styled.p`
   margin-left: 15px;
 `;
 
-export interface Product {
-    name: string,
-    id: string,
-    price: number,
-    img: string
-}
-
 const ProductDescriptionPage = () => {
     const params = useParams();
     const productId = params.productId;
-
     const navigate = useNavigate();
-    const entries = Object.entries(products);
-    let chosen;
 
-    for (let i = 0; i < entries.length; i++) {
-        if (productId === entries[i][0]) {
-            chosen = entries[i][1];
-            break;
-        }
-    }
-
-    // ADD MODAL FOR NOT FOUND WITH ON CLICK THAT REDIRECTS TO HOME OR SOMETHING
-    if (!chosen) {
-        return <NotFound/>;
-    }
-
+    // @ts-ignore
+    const chosen = products[productId];
     const {cart, setCart} = useContext(Context);
-    const [product, setProduct] = useState({
-        name: chosen.name,
-        id: productId as string,
-        price: chosen.price,
-        img: chosen.img[0]
-    });
-    const addNewToCart = (product: Product) => setCart((existing: Product[]) => existing.concat([product]))
+    const [product, setProduct] = useState(chosen);
+    const {price, calculateTotal} = useContext(PriceContext);
 
-    function addProductToCart(product: Product) {
+    function addProductToCart(product: ProdJson) {
         let temp = cart;
-        if (temp.includes(product)) { // @ts-ignore
-            temp.push(cart.find(el => el.name === name));
+        // @ts-ignore
+        const quantity = cart[product.name]?.quantity;
+        if (quantity) {
+            // @ts-ignore
+            temp[product.name].quantity = quantity + 1;
+            setCart(temp)
+        } else {
+            temp = {...temp, [product.name]: {element: product, quantity: 1}}
+            setCart(temp);
         }
-        setCart(temp);
+        calculateTotal();
     }
+
 
     return (<Container>
         <ProductCategoriesBar categories={Object.values(chosen.category)}/>
@@ -140,11 +124,11 @@ const ProductDescriptionPage = () => {
             </ImagesContainer>
             <Information>
                 <Text className="title">Description: </Text>
-                <Text>{chosen.description.split("\n").map((el) => <>{el} <br/> </>)}</Text>
+                <Text>{chosen.description.split("\n").map((el: string) => <>{el} <br/> </>)}</Text>
                 <div style={{display: "flex", flexDirection: "row"}}>
                     <div style={{width: "50%"}}>
                         <Text className="titleIngredients">Ingredients: </Text>
-                        <Text className="ingredients">{chosen.ingredients.split(", ").map((el) => <>{el}
+                        <Text className="ingredients">{chosen.ingredients.split(", ").map((el: string) => <>{el}
                             <br/> </>)}</Text>
                     </div>
                     <div style={{display: "flex", flexDirection: "column", width: "50%", alignItems: "center"}}>
@@ -153,14 +137,13 @@ const ProductDescriptionPage = () => {
                             <Price>{chosen.price}€</Price>
                         </div>
                         <BuyingOptions product={product}
-                                       setCart={addNewToCart}
+                                       setCart={addProductToCart}
                                        cart={cart}
                         />
                     </div>
                 </div>
                 <Text className="titleIngredients">Quantity: </Text>
                 <Text>{chosen.weight + (chosen.category[2] === "liquid" ? 'ml' : 'g')}</Text>
-
             </Information>
         </ProductContainer>
     </Container>);

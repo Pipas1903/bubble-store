@@ -1,7 +1,7 @@
 import React, {useContext, useState} from "react";
 import styled from "styled-components";
-import {Context} from "../../App";
-import {Product} from "../../pages/ProductDescriptionPage";
+import {Context, CartProducts} from "../../App";
+import {ProdJson} from "../Pagination";
 
 const QuantityButton = styled.input`
   background-color: rgba(248, 210, 224, 0.18);
@@ -39,9 +39,9 @@ const QuantityManager = styled.div`
 `;
 
 interface Stuff {
-    product: Product,
-    setCart: (products: Product) => void,
-    cart: Product[]
+    product: ProdJson,
+    setCart: (products: ProdJson) => void,
+    cart: CartProducts
 }
 
 const BuyingOptions = ({product, setCart, cart}: Stuff) => {

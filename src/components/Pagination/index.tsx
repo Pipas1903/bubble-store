@@ -15,7 +15,7 @@ interface stuff {
     thirdCategory: string
 }
 
-interface Prod {
+export interface ProdJson {
     name: string,
     price: number,
     description: string,
@@ -37,9 +37,6 @@ const Container = styled.div`
   row-gap: 15px;
   column-gap: 10px;
   flex-wrap: wrap;
-`;
-const PageContainer = styled.div`
-
 `;
 
 const All = styled.div`
@@ -63,7 +60,7 @@ const Pagination = ({categoryName, path, subCategory, thirdCategory}: stuff) => 
     const entries = Object.entries(AllProducts);
     const [, updateState] = React.useState({"": ""});
 
-    function filterProducts(path: Location): Prod[] {
+    function filterProducts(path: Location): ProdJson[] {
         const values = Object.values(AllProducts);
 
         if (thirdCategory !== undefined) {
@@ -117,11 +114,11 @@ const Pagination = ({categoryName, path, subCategory, thirdCategory}: stuff) => 
             return;
         }
         if (atr === "+")
-            setProducts((current: Prod[]) => current.sort(function (a, b) {
+            setProducts((current: ProdJson[]) => current.sort(function (a, b) {
                 return b.price - a.price;
             }));
         if (atr === "-")
-            setProducts((current: Prod[]) => current.sort(function (a, b) {
+            setProducts((current: ProdJson[]) => current.sort(function (a, b) {
                 return a.price - b.price;
             }));
     }
@@ -136,12 +133,12 @@ const Pagination = ({categoryName, path, subCategory, thirdCategory}: stuff) => 
                                                        price={el.price}
                                                        images={el.img}/>)}
         </Container>
-        <PageContainer>
+        <div>
             <PageManager productsPerPage={productsPerPage}
                          totalProducts={products.length}
                          paginate={paginate}
             />
-        </PageContainer>
+        </div>
     </All>);
 }
 

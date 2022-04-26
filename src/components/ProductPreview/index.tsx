@@ -16,16 +16,20 @@ const Product = styled.div`
   width: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   cursor: pointer;
   padding: 10px;
   height: 20%;
 `;
 const Name = styled.h1`
   font-size: 20px;
-  margin: 10px 0 0 10px;
+  margin-bottom: 10px;
+  width: fit-content;
 `;
+
+const Image = styled(ProductImage)`
+  width: 100%`;
+
 
 const ProductPreview = (props: productDescription) => {
     const navigate = useNavigate();
@@ -37,10 +41,12 @@ const ProductPreview = (props: productDescription) => {
 
     return <LazyLoadComponent>
         <Product onClick={(e) => showProduct(e, props.id)}>
-            <ProductImage path={props.images[0]}
-                          alt={props.name}/>
+            <Image path={props.images[0]}
+                   alt={props.name}/>
+
             <Name>{props.name}</Name>
             <p>{props.price}€</p>
+
         </Product>
     </LazyLoadComponent>
 

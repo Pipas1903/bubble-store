@@ -47,7 +47,7 @@ const Category = styled.button`
   transition: all linear 300ms;
 
   &:hover {
-    color: black;
+    color: #5284cf;
   }
 `;
 

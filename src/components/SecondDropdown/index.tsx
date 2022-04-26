@@ -45,7 +45,7 @@ const Category = styled.button`
   }
 
   &:hover {
-    color: black;
+    color: #5284cf;
   }
 `;
 

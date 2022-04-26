@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {Link} from "react-router-dom";
+import Search from "../Search";
 
 const Bar = styled.div`
   display: flex;
@@ -18,6 +19,10 @@ const Categories = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   transition: color ease-in-out 400ms;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 
   &:hover {
     color: #5284cf

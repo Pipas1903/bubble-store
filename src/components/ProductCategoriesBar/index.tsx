@@ -18,6 +18,10 @@ const Category = styled(Link)`
   text-decoration: none;
   transition: color ease-in-out 500ms;
 
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
   &:hover {
     color: #DBBDCD;
   }
