@@ -98,9 +98,7 @@ const Cart = ({cartModal, setCartModal}: props) => {
 
     function increment(product: ProdJson) {
         let temp = cart;
-        // @ts-ignore
         const quantity = cart[product.name]?.quantity;
-        // @ts-ignore
         temp[product.name].quantity = quantity + 1;
         setCart(temp);
         calculateTotal();
@@ -108,13 +106,9 @@ const Cart = ({cartModal, setCartModal}: props) => {
 
     function decrement(product: ProdJson) {
         let temp = cart;
-        // @ts-ignore
         const quantity = cart[product.name].quantity
-        // @ts-ignore
         temp[product.name].quantity = quantity - 1;
-        // @ts-ignore
         if (temp[product.name].quantity === 0) {
-            // @ts-ignore
             delete temp[product.name];
         }
 
