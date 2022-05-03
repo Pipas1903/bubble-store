@@ -1,0 +1,18 @@
+version: "3.8"
+
+networks:
+  app-bbs:
+    name: app-bbs
+    driver: bridge
+  app-database-bbs:
+    name: app-database-bbs
+    driver: bridge
+  app-mock-back-bbs:
+    name: app-mock-back-bbs
+    driver: bridge
+
+volumes:
+  data-bubble-store:
+
+services:
+

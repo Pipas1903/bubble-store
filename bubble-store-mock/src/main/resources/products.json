@@ -1,0 +1,578 @@
+[
+  {
+    "id": "001",
+    "name": "Heali Kiwi",
+    "price": 12,
+    "description": "Itchy and dry scalp got you down? Our Heali Kiwi solid shampoo is here to help!\n\nChock full of oatmeal and a selection of ancient ayurvedic oils, our top-selling bar works a treat to help calm and nourish touchy scalps. As with all our shampoo bars, Heali Kiwi is 100% soap-free, pH-balanced and super gentle - yet wonderfully effective in washing your scalp woes away.",
+    "ingredients": "sodium cocoyl isethionate, sodium coco-sulfate, decyl glucoside, stearic acid, Theobroma cacao (cocoa) seed butter, Cocos nucifera (coconut) oil, glycerin, Avena sativa (oat) kernel meal, brassica alcohol, Citrus aurantifolia (lime) oil, lactic acid, caprylic/capric triglyceride, sodium isethionate, Azadirachta indica (neem) seed oil, Pongamia glabra (karanja) seed oil, behentrimonium methosulfate, limonene, citral, linalool",
+    "weight": 110,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Hair_HealiKiwi_ING1_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_Lathering_-_Rach_23_707x707_crop_center.jpg?v=1569506971"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "002",
+    "name": "Frizz Wrangler",
+    "price": 12,
+    "description": "Supremely smoothing without weighing your hair down, Frizz Wrangler is the go-to bar for those of you with beautiful curly hair - or hair that is subjected to hot tools and bleach and would happily accept a generous serving of hydration with a \"thank you!\".\n\nFair trade Samoan coconut oil and cocoa butter make an appearance in this delightfully coconutty bar for a shampoo that works as well at taming frizz as it smells divine. The result? Silky-smooth tresses that are frizz-free, full of life and easy to style.",
+    "ingredients": "sodium cocoyl isethionate, sodium coco-sulfate, stearic acid, decyl glucoside, Cocos nucifera (coconut) fruit, Theobroma cacao (cocoa) seed butter, brassica alcohol, lactic acid, caprylic/capric triglyceride, sodium isethionate, behentrimonium methosulfate, parfum, linalool",
+    "weight": 110,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Hair_FrissWrangler_ING1_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_Frizz_Wrangler_1_707x707_crop_center.jpg?v=1569484591"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "003",
+    "name": "Pinkalicious",
+    "price": 12,
+    "description": "Pinkalicious is pink to match the brand Ethique logo and smells delightfully like pink grapefruit and vanilla - it's the perfect addition to your beauty bar collection.\n\nAs usual organic, virgin, fair trade coconut oil and cocoa butter make an appearance, along with a host of other divine ingredients. Best for those with balanced hair and paired with our solid conditioner, Wonderbar.",
+    "ingredients": "sodium cocoyl isethionate, sodium coco-sulfate, decyl glucoside, stearic acid, Theobroma cacao (cocoa) seed butter, Cocos nucifera (coconut) oil, glycerin, Avena sativa (oat) kernel meal, brassica alcohol, Citrus aurantifolia (lime) oil, lactic acid, caprylic/capric triglyceride, sodium isethionate, Azadirachta indica (neem) seed oil, Pongamia glabra (karanja) seed oil, behentrimonium methosulfate, limonene, citral, linalool",
+    "weight": 110,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Hair_PinkaliciousShampooBar_ING1_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_Pinkalicious_Shampoo_Bar_for_Normal_Hair_2_707x707_crop_center.jpg?v=1569484591"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "004",
+    "name": "St Clements",
+    "price": 12,
+    "description": "If you struggle with oily hair then Saint Clements is for you.\n\nThere are no harsh 'stripping' surfactants (foaming agents) which just create more oil, nor is there any silicone.\n\nWe use Lime and Orange oils to balance oil production, clean the scalp and freshen your hair up. Leaves your hair perfect without the need for a conditioner as there are humectants in there which draw moisture to your hair, without the oil. Perfect!",
+    "ingredients": "sodium coco-sulfate sodium cocoyl isethionate, decyl glucoside, stearic acid, Theobroma cacao (cocoa) seed butter, glycerin, Ricinus communis (castor) seed oil, lactic acid, brassica alcohol, caprylic/capric triglyceride, sodium isethionate, Citrus aurantium dulcis (orange) peel oil, Citrus aurantifolia (lime) oil, behentrimonium methosulfate, mica, limonene, linalool, citral, CI 77891, CI 77861, CI 77492",
+    "weight": 110,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Hair_st_clements_ING2_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_St_Clements_-_Rach_16_707x707_crop_center.jpg?v=1569506792"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "005",
+    "name": "Herbal Essences Coconut Milk",
+    "price": 6,
+    "description": "Hydrating shampoo - helps hydrate damaged hair to smoothness to reveal it's natural beauty. Hair is softer & smoother.\n\nUp to 2X more nourished hair vs. non-conditioning shampoo when using shampoo and conditioner",
+    "ingredients": "Aqua (Water), Disodium Cocoamphodiacetate, Cocamidopropyl Betaine, Sodium Chloride, PEG-15 Cocopolyamine, PEG-200 Hydrogenated Glyceryl Palmate, Cetrimonium Chloride, Citric Acid, Laureth-2, Sodium Styrene/Acrylates Copolymer, PEG-120 Methyl Glucose Dioleate, PEG-7 Glyceryl Cocoate, PEG-40 Hydrogenated Castor Oil, Trideceth-9, Parfum (Fragrance), PEG-5 Ethylhexanoate, Sodium Benzoate, Dipropylene Glycol, Basic Red 51, Basic Violet 2, Hexyl Cinnamal.",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1617886154/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Coconut%20Milk/L/Coconut_Milk_Shampoo_v2.png",
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1621328770/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Coconut%20Milk/Secondary/S6_How_to_RECYCLE%20Shampoo.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "006",
+    "name": "Passion Flower & Rice Milk",
+    "price": 6,
+    "description": "Nourishing shampoo - deeply penetrates to nourish very dry hair and reveal its natural beauty. Hair is softer & smoother.\n\nUp to 2X more nourished hair vs. non-conditioning shampoo when using shampoo and conditioner",
+    "ingredients": "Aqua, Sodium Laureth Sulfate, Sodium Citrate, Cocamidopropyl Betaine, Sodium Xylenesulfonate, Stearyl Alcohol, Sodium Chloride, Cetyl Alcohol, Parfum, Citric Acid, Sodium Benzoate, Sodium Salicylate, Polyquaternium-6, Guar Hydroxypropyltrimonium Chloride, Limonene, Sodium Hydroxide, Trihydroxystearin, Tetrasodium EDTA, Propylene Glycol, Histidine, Linalool, Hexyl Cinnamal, Butylene Glycol, Oryza Sativa Starch, Panthenol, Passiflora Incarnata Extract, Aloe Barbadensis Leaf Juice, Glucose, Alcohol Denat., Lactic Acid, Potassium Sorbate, Ecklonia Radiata Extract",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1617886444/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Passion%20Flower%20And%20Rice%20Milk/L/Passion_Flower_Rice_Milk_Shampoo_v2.png",
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1621331571/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Passion%20Flower%20And%20Rice%20Milk/Secondary/S4_PassionFruit.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "007",
+    "name": "Herbal Essences Argan Oil",
+    "price": 6,
+    "description": "Repairing hair shampoo - helps repair damaged hair to smoothness to reveal it's natural beauty. Hair is softer & smoother.\n\nUp to 2X more nourished hair vs. non-conditioning shampoo when using shampoo and conditioner",
+    "ingredients": "Aqua, Sodium Laureth Sulfate, Sodium Citrate, Cocamidopropyl Betaine, Sodium Xylenesulfonate, Stearyl Alcohol, Sodium Chloride, Parfum, Cetyl Alcohol, Citric Acid, Sodium Benzoate, Sodium Salicylate, Guar Hydroxypropyltrimonium Chloride, Polyquaternium-6, Sodium Hydroxide, Trihydroxystearin, Polyquaternium-10, Tetrasodium EDTA, Benzyl Benzoate, Hexyl Cinnamal, Histidine, Alpha-Isomethyl Ionone, Coumarin, Butylene Glycol, Argania Spinosa Kernel Oil, Aloe Barbadensis Leaf Juice, Sodium Acetate, Alcohol Denat., Ecklonia Radiata Extract",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1617885855/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Argan%20Oil/L/Argan_Oil_Shampoo_v2.png",
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1621263471/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Argan%20Oil/Secondary/S4_ARGAN_OIL.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "008",
+    "name": "Micellar Water & Blue Ginger",
+    "price": 6,
+    "description": "Gentle cleansing - micellar Water & Blue Ginger shampoo refreshes flat, limp hair by removing dirt and oils to reveal radiant locks.\n\nReal botanicals endorsed by Royal Botanic Gardens, Kew\nThe real botanicals in this formula have been endorsed by the Royal Botanic Gardens, Kew - a world-leading authority on plants.",
+    "ingredients": "Water/eau, sodium laureth sulphate, sodium lauryl sulphate, sodium chloride, cocamidopropyl betaine, alpinia galanga rhizome extract, betula alba bark extract, histidine, aloe barbadensis leaf juice, ecklonia radiata extract, fragrance/parfum, sodium citrate, sodium xylenesulfonate, citric acid, sodium benzoate, hydroxypropyl methylcellulose, tetrasodium EDTA, niacinamide, methylchloroisothiazolinone, methylisothiazolinone",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/mwace/image/upload/v1586166387/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Blue%20Ginger%20And%20Micellar%20Water/L/Blue_Ginger_Micellar_Water_Shampoo_400ml.png",
+      "https://res.cloudinary.com/mwace/image/upload/v1589887732/Herbal_Essences_EN_GB/Product%20Detail%20Pages/PETA_Logo_PDP.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "009",
+    "name": "The Guardian",
+    "price": 14,
+    "description": "The Guardian was created for those people who suffer from very dry, very damaged or frizzy hair.\n\nContaining lots of cocoa butter, coconut oil, vitamin B5 and zesty lime oil it will tame your frizz, hydrate dry hair and make your hair look smooth and lush (it won't repair your hair, it is impossible to repair something that is dead.) The Guardian can also be used as a shaving bar or an in-shower moisturiser.",
+    "ingredients": "behentrimonium methosulfate, brassica alcohol, hydrogenated castor oil, Cocos nucifera (coconut) oil, Theobroma cacao (cocoa) seed butter, stearic acid, glycerin, panthenol, caprylic/capric triglyceride, Citrus aurantifolia (lime) oil, benzyl alcohol, mica, limonene, dehydroacetic acid, aqua (water), citral, linalool, titanium dioxide, CI 77288",
+    "weight": 60,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Hair_TheGuardian_ING1_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_The_Guardian_-_Rach_6_707x707_crop_center.jpg?v=1569506885"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "010",
+    "name": "In The Buff",
+    "price": 14,
+    "description": "The ultimate, scent-free conditioner for your hair care routine. Free from fragrance & coconut oil to soothe and smooth your scalp! We’re talking fair-trade, less-allergenic babassu oil, THC-free hemp oil and cocoa butter to nourish your hair without weighing it down. Guar – made from a kind of bean – helps smooth the hair and adds a protective layer. To bind it all together, we’ve used brassica alcohol. This is a great alternative to palm-derived co-emulsifiers, is non-drying and derived from brassica (which is in the same family as broccoli).\n\nFree from fragrance & coconut oil – just luscious locks and a scalp that will love you forever.",
+    "ingredients": "behentrimonium methosulfate, brassica alcohol, Euphorbia cerifera cera (candelilla wax), Theobroma cacao (cocoa) seed butter, Orbignya oleifera (babassu) seed oil, glycerin, jojoba esters, stearic acid, Cannabis sativa (hemp) seed oil, tridecane, undecane, guar hydroxypropyltrimonium chloride, benzyl alcohol, mica, dehydroacetic acid, aqua (water), tocopherol, titanium dioxide, CI 77491",
+    "weight": 60,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_Hair_Range_-_Conditioner_-_In_The_Buff_Conditioner_Bar_-_Ingredients_1_707x707_crop_center.jpg?v=1569584472",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_In_The_Buff_-_Sophie_2_707x707_crop_center.jpg?v=1569584795"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "011",
+    "name": "Untangled",
+    "price": 11,
+    "description": "Curly-wurlys or super-fine fly-aways – whatever makes your little one’s hair hard to handle, this is the answer.\n\nTame the tangle with our new conditioner for little ones, containing cocoa butter, coconut oil and mandarin.\n\nAlso doubles as a non-foaming all-over wash for super sensitive skin.",
+    "ingredients": "stearyl alcohol, cetyl alcohol, behentrimonium methosulfate, Theobroma cacao (cocoa) butter, Cocos nucifera (coconut) oil, vegetable glycerine, Citrus reticulata (mandarin) essential oil, benzyl alcohol, dehydroacetic acid",
+    "weight": 60,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_Baby_Range_-_Untangled_-_Solid_conditioner_-_Ingredients_2_707x707_crop_center.jpg?v=1569503359",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_Baby_Range_-_Untangled_-_Solid_conditioner_-_In_Use_707x707_crop_center.jpg?v=1569513671"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "012",
+    "name": "Tone it down",
+    "price": 14,
+    "description": "Goodbye brass! To bring out the brightness in blonde and silver hair, this purple conditioning bar (great for blondes and silver foxes) is best used as your regular conditioner – it doesn’t contain petrochemical-derived dyes so the toning is more gentle than typical purple products. Jasmine oil delivers deep nourishment for soft, smooth, luminous locks.",
+    "ingredients": "cetyl alcohol, stearyl alcohol, behentrimonium methosulfate, Cocos nucifera (coconut) oil, mica, Theobroma cacao (cocoa) butter, vegetable glycerine, Caprylic/capric triglyceride, benzyl alcohol, Panthenol (Vitamin B5), Jasminum grandiflorum (jasmine) essential oil, dehydroacetic acid, natural fragrance, beta vulgaris (beetroot) extract, benzyl benzoate, linalool, eugenol",
+    "weight": 60,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_Hair_Range_-_Conditioner_-_Tone_It_Down_Conditioner_-_Ingredients_2_707x707_crop_center.jpg?v=1569786400",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_Hair_Range_-_Conditioner_-_Tone_It_Down_Conditioner_-_In_Use_707x707_crop_center.jpg?v=1569786400"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "013",
+    "name": "Pure Aloe & Mango",
+    "price": 6,
+    "description": "Herbal Essences Pure Aloe & Mango sulphate-free* conditioner helps to protect the colour of your hair, all the while giving it a silky shine.\n\nThe real botanicals in this formula have been endorsed by the Royal Botanic Gardens, Kew – a world-leading authority on plants.",
+    "ingredients": "Aqua, stearyl alcohol, cetyl alcohol, stearamidopropyl dimethylamine, bis-aminopropyl dimethicone, fragrance/parfum, benzyl alcohol, dicetyldimonium chloride, glutamic acid, sodium benzoate, propylene glycol, citric acid, disodium EDTA, limonene, histidine, hexyl cinnamal, linalool, aloe barbadensis leaf juice, butylene glycol, rubus fruticosus fruit extract, persea gratissima fruit extract, mangifera indica fruit extract, alcohol denat., ecklonia radiata extract",
+    "weight": 275,
+    "img": [
+      "https://res.cloudinary.com/mwace/image/upload/v1586167457/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Potent%20Aloe%20%2B%20Mango/L/Sulfate_Free_Mango_Conditioner_275ml.png",
+      "https://res.cloudinary.com/mwace/image/upload/v1589887732/Herbal_Essences_EN_GB/Product%20Detail%20Pages/PETA_Logo_PDP.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "014",
+    "name": "Pure Aloe & Bamboo",
+    "price": 6,
+    "description": "Herbal Essences Pure Aloe & Bamboo sulphate-free* conditioner strengthens and deeply moisturises hair.\n\nThe real botanicals in this formula have been endorsed by the Royal Botanic Gardens, Kew - a world-leading authority on plants.",
+    "ingredients": "aqua, stearyl alcohol, bis-aminopropyl dimethicone, behentrimonium chloride, cetyl alcohol, isopropyl alcohol, phenoxyethanol, benzyl alcohol, fragrance/parfum, sodium benzoate, disodium EDTA, benzyl salicylate, citric acid, hexyl cinnamal, histidine, limonene, propylene glycol, aloe barbadensis leaf juice, polysorbate 20, geraniol, butylene glycol, bambusa vulgaris shoot extract, alcohol denat., lactic acid, vitis vinifera seed extract, potassium sorbate, ecklonia radiata extract",
+    "weight": 275,
+    "img": [
+      "https://res.cloudinary.com/mwace/image/upload/v1586167420/Herbal_Essences_EN_GB/Product%20Detail%20Pages/Potent%20Aloe%20%2B%20Bamboo/L/Sulfate_Free_Bamboo_Conditioner_275ml.png",
+      "https://res.cloudinary.com/mwace/image/upload/v1589887732/Herbal_Essences_EN_GB/Product%20Detail%20Pages/PETA_Logo_PDP.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "015",
+    "name": "White Grapefruit & Mosa Mint",
+    "price": 7,
+    "description": "Revives dull hair shine & reveal its natural beauty. Hair is softer & smoother.\n\nUp to 2X more nourished hair vs. non-conditioning shampoo when using shampoo and conditioner\n\nReal plant esences - Shampoo infused with real White Grapefruit and Aloe.",
+    "ingredients": "Aqua, Stearyl Alcohol, Stearamidopropyl Dimethylamine, Cetyl Alcohol, Glutamic Acid, Benzyl Alcohol, Parfum, Sodium Benzoate, Limonene, Citric Acid, Disodium EDTA, Linalool, Propylene Glycol, Histidine, Citronellol, Butylene Glycol, Menthol, Mentha Piperita Oil, Mentha Arvensis Leaf Oil, Citrus Paradisi Juice, Aloe Barbadensis Leaf Juice, Alcohol Denat., Potassium Sorbate, Ecklonia Radiata Extract",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1617891190/Herbal_Essences_EN_GB/Product%20Detail%20Pages/White%20Grapefruit%20And%20Mosa%20Mint/L/Grapefruit_Mosa_Mint_Conditioner_v2.png",
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1621326896/Herbal_Essences_EN_GB/Product%20Detail%20Pages/White%20Grapefruit%20And%20Mosa%20Mint/Secondary/S4_grapefruit.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "016",
+    "name": "White Strawberry & Sweet Mint",
+    "price": 7,
+    "description": "Purifies roots & hydrate lengths, revealing hair's natural beauty. Hair is softer & smoother.\n\nUp to 2X more nourished hair vs. non-conditioning shampoo when using shampoo and conditioner\n\nReal plant esences - Conditioner infused with real Strawberry, Mint and Aloe.",
+    "ingredients": "Aqua, Stearyl Alcohol, Stearamidopropyl Dimethylamine, Cetyl Alcohol, Glutamic Acid, Benzyl Alcohol, Parfum, Sodium Benzoate, Benzyl Benzoate, Citric Acid, Disodium EDTA, Hexyl Cinnamal, Linalool, Histidine, Butylene Glycol, Limonene, Menthol, Mentha Piperita Oil, Mentha Arvensis Leaf Oil, Fragaria Chiloensis Fruit Extract, Aloe Barbadensis Leaf Juice, Alcohol Denat., Ecklonia Radiata Extract",
+    "weight": 400,
+    "img": [
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1617890825/Herbal_Essences_EN_GB/Product%20Detail%20Pages/White%20Strawberry%20And%20Sweet%20Mint/L/Strawberry_Sweet_Mint_Conditioner_v2.png",
+      "https://res.cloudinary.com/pmpl/image/upload/f_auto,q_auto/v1621342210/Herbal_Essences_EN_GB/Product%20Detail%20Pages/White%20Strawberry%20And%20Sweet%20Mint/Secondary/S4_strawberry.webp"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "017",
+    "name": "Matcha, Lime & Lemongrass",
+    "price": 5,
+    "description": "Not only does solid bodywash use less packaging and require less water to produce, they are also one of the easiest eco swaps to make. Like all Ethique products, our bodywashes are made of biodegradable, sustainably sourced, naturally-derived and palm oil free ingredients. Does this impact the effectiveness of the wash? No way! Our bars are still deliciously bubbly and non-drying and we just know you’ll love them.\n\nWe love fresh, citrus-y scents and this one fits the bill. Lime oil, lemongrass oil and lashings of matcha tea powder make this the perfect morning shower bar.",
+    "ingredients": "Sodium olivate, sodium cocoate, sodium stearate, aqua (water), vegetable glycerine, sodium chloride, Citrus aurantifolia (lime) essential oil, mica, Cymbopogon schoenanthus (Lemongrass) oil, Camellia sinensis leaf extract (matcha powder), Tetrasodium glutamate diacetate, citral, limonene",
+    "weight": 120,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/BodyBars2018_019_Matcha_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_Matcha_Lime_Lemongrass_Bodywash_-_Sophie_5_707x707_crop_center.jpg?v=1569506991"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "018",
+    "name": "Pumice, Tea Tree & Spearmint",
+    "price": 5,
+    "description": "Not only does solid bodywash use less packaging and require less water to produce, they are also one of the easiest eco swaps to make. Like all Ethique products, our bodywashes are made of biodegradable, sustainably sourced, naturally-derived and palm oil free ingredients. Does this impact the effectiveness of the wash? No way! Our bars are still deliciously bubbly and non-drying and we just know you’ll love them.\n\nThis bar is our bestseller, particularly popular with those of you who like a bit of exfoliation and a bit of charcoal to truly feel clean. Pumice scrubs, charcoal cleanses and tea tree, spearmint and ginger oils smell fab.",
+    "ingredients": "sodium olivate, sodium cocoate, sodium stearate, aqua (water), vegetable glycerine, sodium chloride, activated charcoal, pumice, Mentha spicata (spearmint) oil, Zingiber officinale (ginger) essential oil, Melaleuca alternifolia (teatree) oil, Tetrasodium glutamate diacetate, citral, limonene",
+    "weight": 120,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/BodyBars2018_029_pumice_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_Pumice_Tea_Tree_Spearmint_Bodywash_-_Khuzwane_21_707x707_crop_center.jpg?v=1569506992"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "019",
+    "name": "Charcoal, Kaolin & Oatmeal",
+    "price": 5,
+    "description": "Not only does solid bodywash use less packaging and require less water to produce, they are also one of the easiest eco swaps to make. Like all Ethique products, our bodywashes are made of biodegradable, sustainably sourced, naturally-derived and palm oil free ingredients. Does this impact the effectiveness of the wash? No way! Our bars are still deliciously bubbly and non-drying and we just know you’ll love them.\n\nMade with oatmeal to soothe and kaolin & charcoal for a gentle cleanse and left unscented which is great for those with sensitive skin.",
+    "ingredients": "sodium olivate, sodium cocoate, sodium stearate, aqua (water), vegetable glycerine, sodium chloride, kaolin clay, ground oatmeal, activated charcoal, Tetrasodium glutamate diacetate",
+    "weight": 120,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/BodyBars2018_004_Charcoal_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_Charcoal_Kaolin_Oatmeal_Bodywash_-_Sophie_1_707x707_crop_center.jpg?v=1569506986"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "020",
+    "name": "Sweet Orange & Vanilla",
+    "price": 5,
+    "description": "Not only does solid bodywash use less packaging and require less water to produce, they are also one of the easiest eco swaps to make. Like all Ethique products, our bodywashes are made of biodegradable, sustainably sourced, naturally-derived and palm oil free ingredients. Does this impact the effectiveness of the wash? No way! Our bars are still deliciously bubbly and non-drying and we just know you’ll love them.\n\nThis one is for those of you with a sweet tooth. Vanilla is creamy, sweet and delicious, with a hit of sweet orange oil to lighten it up, but never overpower it.",
+    "ingredients": "sodium olivate, sodium cocoate, sodium stearate, aqua (water), vegetable glycerine, sodium chloride, natural fragrance, Citrus aurantium dulcis (sweet orange) essential oil, mica, Tetrasodium glutamate diacetate, citral, limonene",
+    "weight": 120,
+    "img": [
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/BodyBars2018_024_orange_707x707_crop_center.jpg?v=1569484591",
+      "https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique_-_In_Use_-_Sweet_orange_vanilla_bodywash_-_Dallas_5_707x707_crop_center.jpg?v=1569506993"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "021",
+    "name": "Purely Pampering Shea Butter with Warm Vanilla",
+    "price": 8,
+    "description": "What makes truly pampering skin care? We believe it’s the promise of softer, more moisturized skin combined with small moments of self-care. Our Pampering Body Wash with shea butter and warm vanilla scent does just that: blending  naturally-derived cleansers and plant-based moisturizer in a lather that nourishes skin in just one shower.\n\nFor nourishing care, we’ve added our Microbiome Nutrient Serum – a unique blend of prebiotics that nourishes your skin’s microbiome and helps strengthen its natural moisture barrier.",
+    "ingredients": "Water (Eau), Sodium Lauroyl Isethionate, Sodium Methyl Lauroyl Taurate, Sodium Hydroxypropyl Starch Phosphate, Cocamidopropyl Betaine, Lauric Acid, Hydrogenated Soybean Oil, Glycine Soja (Soybean) Oil, Glycerin, Fragrance (Parfum), Stearic Acid, Palmitic Acid, Hydroxystearic Acid, Glyceryl Stearate, Butyrospermum Parkii (Shea) Butter, Sodium Chloride, Sodium Benzoate, Guar Hydroxypropyltrimonium Chloride, Undecylenoyl Glycine, Capryloyl Glycine, Citric Acid, Sodium Gluconate, Coumarin, Hexyl Cinnamal, Limonene, Linalool, Red 33(CI 17200), Yellow 5(CI 19140)",
+    "weight": 650,
+    "img": [
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/canada/pack_shot/011111598522.01-59989011-png.png.ulenscale.460x460.png",
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/canada/pack_shot/011111598522.07-59989024-png.png.ulenscale.460x460.png"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "022",
+    "name": "Winter Care",
+    "price": 8,
+    "description": "Winter can be tough on our skin – the cold air can make it easier for it to dry out, leaving us with parched, rough and cracked skin. Care for your skin by choosing Dove Winter Care Body Wash, a moisturizing body wash that instantly relieves dry skin in just one shower. \n\nSpecially formulated for dry winter skin, Dove Winter Care Body Wash is made with skin-natural nutrients, naturally-derived cleansers and a plant-based moisturizer. The mild, sulfate-free formula is microbiome gentle and transforms into a creamy nourishing lather you’ll love to use on cold winter mornings.\n\nThis moisturizing body wash is infused with Microbiome Nutrient Serum – a unique blend of prebiotics that nourishes your skin and its microbiome – its living protective layer – and helps strengthen skin’s natural moisture barrier.",
+    "ingredients": "Water (Eau), Sodium Lauroyl Isethionate, Sodium Methyl Lauroyl Taurate, Sodium Hydroxypropyl Starch Phosphate, Cocamidopropyl Betaine, Lauric Acid, Hydrogenated Soybean Oil, Glycine Soja (Soybean) Oil, Glycerin, Fragrance (Parfum), Stearic Acid, Palmitic Acid, Hydroxystearic Acid, Glyceryl Stearate, Sodium Chloride, Sodium Benzoate, Guar Hydroxypropyltrimonium Chloride, Undecylenoyl Glycine, Capryloyl Glycine, Citric Acid, Sodium Gluconate, Alpha Isomethyl Ionone, Coumarin, Hexyl Cinnamal, Linalool",
+    "weight": 650,
+    "img": [
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/united_states_of_america/pack_shot/00011111192942-920875-png.png.ulenscale.460x460.png"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "023",
+    "name": "Summer Care with Grapefruit and Lemon Balm",
+    "price": 8,
+    "description": "Seeing dry skin in summer? If heat, chlorine and humidity leaves your skin feeling tight or uncomfortable, try a nourishing summer skin care routine with Dove Summer Care Body Wash.\n\nKeeping skin moisturized in summer starts with a refreshing body wash. Dove Summer Body Wash gently cleanses and moisturizes skin, leaving it looking smooth and glowing. The refreshing scent of grapefruit and lemon will add a dose of sunshine to every day. \n\nDove Summer Body Wash is infused with Microbiome Nutrient Serum – a unique blend of prebiotics that nourishes your skin’s microbiome, and helps strengthen skin’s natural moisture barrier. Its mild formula with skin-natural nourishers and plant-based cleansers makes this a microbiome gentle body wash.",
+    "ingredients": "Water (Eau), Cocamidopropyl Betaine, Sodium Lauroyl Isethionate, Sodium Chloride, Sodium Methyl Lauroyl Taurate, Sodium Benzoate, Glycerin, Fragrance (Parfum), Stearic Acid, \nPalmitic Acid, Glyceryl Stearate, Glycol Distearate, Hydroxystearic Acid, Citrus Grandis (Grapefruit) Fruit Extract, Melissa Officinalis Extract, Lauric Acid, Carrageenan, Cyamopsis Tetragonoloba (Guar) Gum, Undecylenoyl Glycine, Capryloyl Glycine, Sodium gluconate, Citric Acid, Phenoxyethanol, Citronellol, Geraniol, Hexyl Cinnamal, Linalool, Blue 1 (CI 42090), Red 33 (CI 17200), Yellow 5 (CI 19140)",
+    "weight": 650,
+    "img": [
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/united_states_of_america/pack_shot/front/skin_cleansing/skin_cleansing/dove_body_wash_summer_care_22_oz/00011111325180-935188-png.png.ulenscale.460x460.png"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "024",
+    "name": "Renewing Body Wash with Peony and Rose Oil",
+    "price": 8,
+    "description": "Does radiant, dewy skin feel out of reach? Not anymore – it’s just a shower away. Combining the scent of peony and rose oil with the care of Dove, our Renewing Body Wash revives skin leaving it dewy and supple in just one shower.\n \nFormulated with naturally-derived cleansers and plant-based moisturizer, this hydrating body wash blends gentle cleansing with moisturization to create instant softness. The nourishing formula includes Dove Microbiome Nutrient Serum – a unique blend of prebiotics that nourishes your skin's microbiome – its living protective layer, and helps strengthen skin’s natural moisture barrier. The light, floral scent helps you feel fresh and radiant from head to toe.",
+    "ingredients": "Water (Eau), Sodium Chloride, Cocamidopropyl Betaine, Sodium Lauroyl Glycinate, Sodium Lauroyl Isethionate, Acrylates Copolymer, Lauric Acid, Glycerin, Fragrance (Parfum), Stearic Acid, Palmitic Acid, Hydroxystearic Acid, Glyceryl Stearate, Rosa Canina Fruit Oil, Paeonia Officinalis Flower Extract, Phenoxyethanol, Glycol Distearate, Tetrasodium EDTA, PEG-150 Pentaerythrityl Tetrastearate, PPG-2 Hydroxyethyl Cocamide, Iodopropynyl Butylcarbamate, Citric Acid, Citronellol, Geraniol, Hexyl Cinnamal, Limonene, Linalool, Red 33 (CI 17200), Yellow 5 (CI 19140)",
+    "weight": 650,
+    "img": [
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/united_states_of_america/pack_shot/011111527201.01-62311709-png.png.ulenscale.460x460.png",
+      "https://asset-americas.unileversolutions.com/content/dam/unilever/dove/united_states_of_america/pack_shot/011111527201.07-62311724-png.png.ulenscale.460x460.png"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "body-wash",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "025",
+    "name": "Coconut Fragranced Bath Bubble",
+    "price": 4,
+    "description": "Bring on the bubbles with our fun and fragrant Coconut Bath Bubble. It turns your tub into an exotic paradise with an explosion of blue and the gourmand, creamy scent of coconuts.\n\nHeart-shaped bath bubble\nCreamy coconut scent\nColour your bath water blue",
+    "ingredients": "Sodium Bicarbonate, Citric Acid, Talc, Sodium Lauryl Sulfate, Cocamidopropyl Betaine, Monosodium Citrate, PEG-150, Parfum, Maltodextrin, Sucrose, Hydrated Silica, Sodium Chloride, Benzyl Benzoate, Coumarin, Denatonium Benzoate, Benzyl Alcohol, CI 77891, CI 42090",
+    "weight": 28,
+    "img": [
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/9/1/91017_coconut-fragranced-bath-bubble-1-640x640.jpg",
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/9/1/91018_pink-grapefruit-fragranced-bath-bubble-5-640x640.jpg"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-bubble",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "026",
+    "name": "Pink Grapefruit Fragranced Bath Bubble",
+    "price": 4,
+    "description": "Bring on the bubbles with our fun and fragrant Pink Grapefruit Bath Bubble. It turns your tub into a fresh, juicy treat with an explosion of pretty pink and the scent of zesty, citrusy pink grapefruits.\n\nHeart-shaped bath bubble\nCitrusy pink grapefruit scent\nColor your bath water pink\nPick and mix bath treats",
+    "ingredients": "Sodium Bicarbonate, Citric Acid, Talc, Sodium Lauryl Sulfate, Cocamidopropyl Betaine, Monosodium Citrate, PEG-150, Parfum, Maltodextrin, Sucrose, Hydrated Silica, Sodium Chloride, Linalool, Benzyl Alcohol, Geraniol, Denatonium Benzoate, CI 77891, CI 19140, CI 14700",
+    "weight": 28,
+    "img": [
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/9/1/91018_pink-grapefruit-fragranced-bath-bubble-1-640x640.jpg",
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/9/1/91018_pink-grapefruit-fragranced-bath-bubble-5-640x640.jpg"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-bubble",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "027",
+    "name": "Moringa Fragranced Bath Bubble",
+    "price": 4,
+    "description": "Bring on the bubbles with our fun and fragrant Moringa Bath Bubble. It turns your tub into a floral meadow with an explosion of soft yellow and the fresh, soothing scent of moringa.\n\nHeart-shaped bath bubble\nFloral moringa scent\nColour your bath water yellow",
+    "ingredients": "Sodium Bicarbonate, Citric Acid, Talc, Sodium Lauryl Sulfate, Cocamidopropyl Betaine, Monosodium Citrate, PEG-150, Parfum, Maltodextrin, Sucrose, Hydrated Silica, Sodium Chloride, Linalool, Benzyl Alcohol, Geraniol, Denatonium Benzoate, CI 77891, CI 19140, CI 14700",
+    "weight": 28,
+    "img": [
+      "https://image.influenster.com/eyJidWNrZXQiOiAiaW5mbHVlbnN0ZXJfcHJvZHVjdGlvbiIsICJrZXkiOiAibWVkaWEvcHJvZHVjdC9pbWFnZS9wcm9kdWN0L2ltYWdlL21vcmluZ2EtZnJhZ3JhbmNlZC1iYXRoLWJ1YmJsZV8xLTY0MHg2NDAuanBnIiwgImVkaXRzIjogeyJyb3RhdGUiOiBudWxsLCAicmVzaXplIjogeyJ3aWR0aCI6IDc1MCwgImhlaWdodCI6IDc1MCwgImZpdCI6ICJpbnNpZGUiLCAiYmFja2dyb3VuZCI6IHsiciI6IDEsICJnIjogMSwgImIiOiAxLCAiYWxwaGEiOiAwfSwgIndpdGhvdXRFbmxhcmdlbWVudCI6IHRydWV9fSwgImV4dGVuZCI6IHt9fQ==",
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/9/1/91018_pink-grapefruit-fragranced-bath-bubble-5-640x640.jpg"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-bubble",
+      "2": "solid"
+    }
+  },
+  {
+    "id": "028",
+    "name": "Banana Bath Blend",
+    "price": 10,
+    "description": "Give your bath time a boost with our deliciously-scented, velvety Bath Blends. More than your average bath soak, we’ve blended super fruits and vegetables rich in vitamins and antioxidants that make your skin look healthier. Our Banana Bath Blend leaves dry skin feeling hydrated, nourished and comforted.  Best of all, notes of banana, watermelon, strawberry and vanilla ice cream leave your skin sweetly scented.  Self-care never smelled so good. Lock the door, queue up a playlist and enjoy.",
+    "ingredients": "Aqua/Water/Eau, Helianthus Annuus Seed Oil/Helianthus Annuus (Sunflower) Seed Oil, Sodium Laureth Sulfate, Coco-Glucoside, Parfum/Fragrance, Cocamidopropyl Betaine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sesamum Indicum Seed Oil/Sesamum Indicum (Sesame) Seed Oil, Phenoxyethanol, Glyceryl Oleate, Sodium Benzoate, Cocos Nucifera Oil/Cocos Nucifera (Coconut) Oil, Persea Gratissima Oil/Persea Gratissima (Avocado) Oil, Musa Sapientum Fruit Extract/Musa Sapientum (Banana) Fruit Extract, Sodium Chloride, Sodium Hydroxide, Niacinamide, Panthenol, Trisodium Ethylenediamine Disuccinate, Citric Acid, Linalool, Limonene, Coumarin, Denatonium Benzoate, Ascorbic Acid, Tocopherol, Hydrogenated Palm Glycerides Citrate, Caramel, CI 19140/Yellow 5, CI 15985/Yellow 6",
+    "weight": 250,
+    "img": [
+      "https://media.thebodyshop.com/i/thebodyshop/BANANA_BATH_BLEND_200ML_4_INRSLPS585.jpg?$product-zoom$",
+      "https://media.thebodyshop.com/i/thebodyshop/BATH_BLEND_RANGE_250ML_INRSLPS272.jpg?$product-zoom$"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-blend",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "029",
+    "name": "Mango Bath Blend",
+    "price": 10,
+    "description": "Give your bath time a boost with our deliciously-scented, velvety Bath Blends. More than your average bath soak, we’ve blended super fruits and vegetables rich in vitamins and antioxidants that make your skin look healthier. Our Mango Bath Blend leaves dry skin feeling hydrated, nourished and comforted. Best of all, notes of mango, passionfruit sorbet, peach blossom and peony leave your skin sweetly scented. Lock the door, queue up a playlist and enjoy.",
+    "ingredients": "Aqua/Water/Eau, Helianthus Annuus Seed Oil/Helianthus Annuus (Sunflower) Seed Oil, Sodium Laureth Sulfate, Coco-Glucoside, Parfum/Fragrance, Cocamidopropyl Betaine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sesamum Indicum Seed Oil/Sesamum Indicum (Sesame) Seed Oil, Limonene, Phenoxyethanol, Glyceryl Oleate, Sodium Benzoate, Mangifera Indica Seed Oil/Mangifera Indica (Mango) Seed Oil, Linalool, Glycerin, Sodium Chloride, Carthamus Tinctorius Seed Oil/Carthamus Tinctorius (Safflower) Seed Oil, Sodium Hydroxide, Niacinamide, Panthenol, Trisodium Ethylenediamine Disuccinate, Citric Acid, Passiflora Incarnata Fruit Extract, Daucus Carota Sativa Root Extract/Daucus Carota Sativa (Carrot) Root Extract, Geraniol, Denatonium Benzoate, Tocopherol, Tocopheryl Acetate, Hydrogenated Palm Glycerides Citrate, Caramel, CI 15510/Orange 4",
+    "weight": 250,
+    "img": [
+      "https://media.thebodyshop.com/i/thebodyshop/MANGO_BATH_BLEND_4_200ML_INRODPS462.jpg?$product-zoom$",
+      "https://media.thebodyshop.com/i/thebodyshop/BATH_BLEND_RANGE_250ML_INRSLPS272.jpg?$product-zoom$"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-blend",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "030",
+    "name": "Berry Bath Blend",
+    "price": 10,
+    "description": "Give your bath time a boost with our deliciously-scented, velvety Bath Blends. More than your average bath soak, we’ve blended super fruits and vegetables rich in vitamins and antioxidants that make your skin look healthier. Our Berry Bath Blend leaves dry skin feeling hydrated, nourished and comforted. Best of all, notes of wild strawberry, oat milk, praline and vanilla leave your skin sweetly scented. Self-care never smelled so good. Lock the door, queue up a playlist and enjoy.",
+    "ingredients": "Aqua/Water/Eau, Helianthus Annuus Seed Oil/Helianthus Annuus (Sunflower) Seed Oil, Sodium Laureth Sulfate, Coco-Glucoside, Parfum/Fragrance, Cocamidopropyl Betaine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sesamum Indicum Seed Oil/Sesamum Indicum (Sesame) Seed Oil, Glyceryl Oleate, Sodium Hydroxide, Phenoxyethanol, Benzyl Alcohol, Sodium Benzoate, Glycerin, Sodium Chloride, Fragaria Ananassa Fruit Extract/Fragaria Ananassa (Strawberry) Fruit Extract, Citric Acid, Fragaria Ananassa Seed Oil/Fragaria Ananassa (Strawberry) Seed Oil, Niacinamide, Panthenol, Trisodium Ethylenediamine Disuccinate, Beta Vulgaris Root Extract/Beta Vulgaris (Beet) Root Extract/Extrait de racine de betterave, Vaccinium Myrtillus Fruit Extract, Tocopherol, Hydrogenated Palm Glycerides Citrate, Potassium Sorbate, Denatonium Benzoate, CI 14700/Red 4, CI 17200/Red 33",
+    "weight": 250,
+    "img": [
+      "https://media.thebodyshop.com/i/thebodyshop/BERRY_BATH_BLEND_4_200ML_INRODPS464.jpg?$product-zoom$",
+      "https://media.thebodyshop.com/i/thebodyshop/BATH_BLEND_RANGE_250ML_INRSLPS272.jpg?$product-zoom$"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-blend",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "031",
+    "name": "Pear Bath Blend",
+    "price": 10,
+    "description": "Give your bath time a boost with our deliciously-scented, velvety Bath Blends. More than your average bath soak, we’ve blended super fruits and vegetables rich in vitamins and antioxidants that make your skin look healthier. Our Pear Bath Blend leaves dry skin feeling hydrated, nourished and comforted.  Best of all, notes of green apple, kale, pear & rose leave your skin sweetly scented. Self-care never smelled so good. Lock the door, queue up a playlist and enjoy.",
+    "ingredients": "Aqua/Water/Eau, Helianthus Annuus Seed Oil/Helianthus Annuus (Sunflower) Seed Oil, Sodium Laureth Sulfate, Parfum/Fragrance, Coco-Glucoside, Cocamidopropyl Betaine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sesamum Indicum Seed Oil/Sesamum Indicum (Sesame) Seed Oil, Phenoxyethanol, Glyceryl Oleate, Sodium Benzoate, Actinidia Chinensis Seed Oil/Actinidia Chinensis (Kiwi) Seed Oil, Sodium Chloride, Sodium Hydroxide, Linalool, Niacinamide, Panthenol, Caprylic/Capric Triglyceride, Trisodium Ethylenediamine Disuccinate, Citric Acid, Aloe Barbadensis Leaf Juice Powder, Pyrus Communis Fruit Extract/Pyrus Communis (Pear) Fruit Extract, Benzyl Alcohol, Denatonium Benzoate, Brassica Oleracea Acephala Leaf Extract, Tocopherol, Potassium Sorbate, Hydrogenated Palm Glycerides Citrate, CI 15985/Yellow 6, CI 19140/Yellow 5, CI 42090/Blue 1",
+    "weight": 250,
+    "img": [
+      "https://www.thebodyshop.com.cy/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/1/0/1076772_pear_bath_blend_250ml_gold_4_inpstps018_v2.jpg",
+      "https://media.thebodyshop.com/i/thebodyshop/BATH_BLEND_RANGE_250ML_INRSLPS272.jpg?$product-zoom$"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-blend",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "032",
+    "name": "Gentle Shampoo",
+    "price": 18.99,
+    "description": "My tear free Kylie Baby Gentle Shampoo cleanses and softens hair and is suitable for delicate hair and sensitive scalp. The moisture-rich formula delivers a creamy lather to cleanse hair without drying it out, and is ideal for babies and kids of all ages. This dreamy shampoo works wonders for all types of hair and leaves hair soft and shiny.",
+    "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Sodium Methyl Oleoyl Taurate, Phenoxyethanol, Coco-Glucoside, Lauryl Glucoside, Glycerin, Glycol Distearate, Citric Acid, Cetrimonium Chloride, Hydrolyzed Vegetable Protein, Potassium Sorbate, Sodium Benzoate, Ethylhexylglycerin, Camellia Oleiferaseed Oil, Citrullus Lanatus (Watermelon) Seed Oil, Fragaria Ananassa (Strawberry) Seed Oil, Panthenol, Simmondsia Chinensis (Jojoba) Seed Oil, Tocopheryl Acetate, Vitis Vinifera (Grape) Seed Oil",
+    "weight": 237,
+    "img": [
+      "https://coty.scene7.com/is/image/cotyemea/KB_GSHAMP-EU_21_Closed_Ombre_WS?$SQUARE-575x575-2X$",
+      "https://coty.scene7.com/is/image/cotyemea/4064941031987_KB_GSHAMP_21_Digital_Infographic_Main_Benefit_1_EU.psd-JPG-1280?$SQUARE-575x575-2X$"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "shampoo",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "033",
+    "name": "Gentle Conditioner",
+    "price": 18.99,
+    "description": "My Kylie Baby Gentle Conditioner eases combing, enhances curls and helps detangle all hair types and textures, leaving your baby's hair silky smooth. This tear free conditioner is formulated with Murumuru Butter, Glycerin and caring botanical oils to take extra care of babies' and kids' hair and delivers gentle yet effective conditioning. Suitable for delicate hair and sensitive scalp, it is ideal for babies and kids of all ages.",
+    "ingredients": "Aqua/Water/Eau, Cetearyl Alcohol, Glycerin, Brassica Campestris (Rapeseed) Seed Oil, Behentrimonium Chloride, Lauryl Laurate, Glycol Distearate, Phenoxyethanol, Astrocaryum Murumuru Seed Butter, Isopropyl Alcohol, Guar Hydroxypropyltrimonium Chloride, Emblica Officinalis Fruit Extract, Sesamum Indicum (Sesame) Seed Oil, Cocoglucosides Hydroxypropyltrimonium Chloride, Cetrimonium Chloride, Lactic Acid, Sodium Chloride, Panthenol, Hydrolyzed Rice Protein, Bambusa Vulgaris Leaf/Stem Extract, Ananas Sativus (Pineapple) Fruit Extract, Potassium Sorbate, Sodium Benzoate",
+    "weight": 237,
+    "img": [
+      "https://coty.scene7.com/is/image/cotyemea/KB_GCOND_21_8oz_236ml_BluePink_Background_2500x2500px.tif-JPG-1280?$SQUARE-575x575-2X$",
+      "https://coty.scene7.com/is/image/cotyemea/4064941031963_KB_GCOND_21_Digital_Infographic_Main_Benefit_1_EU.psd-JPG-300dpi?$SQUARE-575x575-2X$"
+    ],
+    "category": {
+      "0": "hair-care",
+      "1": "conditioner",
+      "2": "liquid"
+    }
+  },
+  {
+    "id": "034",
+    "name": "Bubble Bath",
+    "price": 18.99,
+    "description": "My mild Kylie Baby Bubble Bath fills the bath tub with tear free bubbles, while gently cleansing from head to toe. This formula is suitable for sensitive skin and ideal for babies and kids of all ages. For happy, clean bath time fun!",
+    "ingredients": "Aqua/Water/Eau, Sodium Laurylglucosides Hydroxypropylsulfonate, Coco-Glucoside, Glycerin, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Hydroxysultaine, Glyceryl Caprylate, Sodium Chloride, Gluconolactone, Citric Acid, Sodium Benzoate, Caprylhydroxamic Acid, Calcium Gluconate, Sodium Hydroxide, Helianthus Annuus (Sunflower) Seed Oil, Aloe Barbadensis Leaf Extract, Camellia Sinensis Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Cucumis Sativus (Cucumber) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Tocopherol",
+    "weight": 354,
+    "img": [
+      "https://coty.scene7.com/is/image/cotyemea/4064941031970_KB_BBATH_21_354ml_Ombre_Background_HR_EU.tif-JPG-web-72dpi?$SQUARE-575x575-2X$",
+      "https://coty.scene7.com/is/image/cotyemea/KB_BBATH_21_Formula_1_Square_HR.tif-JPG-web-72dpi?$SQUARE-575x575-2X$"
+    ],
+    "category": {
+      "0": "shower",
+      "1": "bath-bubble",
+      "2": "liquid"
+    }
+  }
+]
